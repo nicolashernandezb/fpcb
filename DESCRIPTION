@@ -1,0 +1,18 @@
+Package: fpcb
+Version: 0.1.0
+Type: Package
+Title: Predictive confidence bands for functional time series
+        forecasting
+Author: Nicolás Hernández [aut, cre],
+  Jairo Cugliari [aut, cre]
+Maintainer: Nicolás Hernández <nicolas.hernandez@mrc-bsu.cam.ac.uk>
+Description: Functions to represent functional objects under a Reproducing Kernel Hilbert Space (RKHS) framework as described 
+  in Muñoz & González (2010). Autoregressive Hilbertian Model for functional time series using RKHS and predictive confidence bands construction 
+  as proposed in Hernández et al (2021).
+Encoding: UTF-8
+License: GPL (>= 3)
+Imports: MASS, stats, FNN
+Repository: CRAN
+NeedsCompilation: yes
+RoxygenNote: 7.1.1
+Packaged: 2021-05-07 17:18:35 UTC; nicolas
