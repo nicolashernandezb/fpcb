@@ -26,11 +26,14 @@ which has a reproducing kernel as proposed in Hernández et al (2021) and
 Wang et al (2020).
 }
 \references{
-N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
+\itemize{
+\item  N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
 Bands for Functional Time Series using Minimum Entropy Sets. 2021.
--Submited-. D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional
+-Submited-. 
+\item D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional
 autoregressive processes in reproducing kernel hilbert spaces, arXiv
 preprint arXiv:2011.13993 (2020).
+}
 }
 \author{
 N. Hernández and J. Cugliari
