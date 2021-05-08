@@ -18,6 +18,7 @@
 #' @return \item{local.entropy}{local entropy relative to each point in the
 #' sample.} \item{entropy}{estimated entropy.}
 #' @author N. Hernández
+#' @noRd
 #' @references Martos, G. et al (2018): Entropy Measures for Stochastic
 #' Processes with Applications in Functional Anomaly Detection. Entropy 20(1):
 #' 33 (2018).
