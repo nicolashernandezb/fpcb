@@ -16,6 +16,7 @@
 #' Covariance and \eqn{Gamma_0} correspond to the Cross-Covariance (of lag 1)
 #' operators, both estimated using the coefficients \eqn{lambda}.}
 #' @author N. Hernández and J. Cugliari
+#' @export
 #' @references N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
 #' Bands for Functional Time Series using Minimum Entropy Sets. 2021.
 #' -Submited-. D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional
