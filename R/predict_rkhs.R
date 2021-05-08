@@ -24,6 +24,7 @@
 #' \item{bootsrap.pred.inband}{bootstrap pseudo replicates included in the
 #' 1-\eqn{alpha} predictive confidence band.} \item{res}{estimation residuals.}
 #' @author N. Hernández and J. Cugliari
+#' @export
 #' @references N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
 #' Bands for Functional Time Series using Minimum Entropy Sets. 2021.
 #' -Submited-.
