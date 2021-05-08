@@ -1,3 +1,19 @@
+#' Generalized inverse
+#' 
+#' Computes a regularized inverse of a square matrix using eigen decomposition
+#' 
+#' 
+#' @param A A square m x m matrix
+#' @param tol A tolerance to keep the first d eigenvalues of A. Default =
+#' 1e-05.
+#' @return The generalized inverse of A.
+#' @author J. Cugliari
+#' @noRd
+#' @examples
+#' 
+#' A<-matrix(rnorm(100),nrow=10)
+#' invgen(A)
+#' 
 invgen <-
 function(A, tol=1e-05){
   spa <- eigen(A, symmetric = T)
