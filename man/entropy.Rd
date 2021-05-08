@@ -37,6 +37,3 @@ Martos, G. et al (2018): Entropy Measures for Stochastic
 Processes with Applications in Functional Anomaly Detection. Entropy 20(1):
 33 (2018).
 }
-\author{
-N. Hernández
-}
