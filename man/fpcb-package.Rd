@@ -24,7 +24,7 @@ Jacques. Simultaneous Predictive Bands for Functional Time Series using
 Minimum Entropy Sets. 2021. -Submited-. }
 }
 \author{
-Nicolás Hernández [aut, cre], Jairo Cugliari [aut, cre]\cr
+Nicolás Hernández [aut, cre], Jairo Cugliari [aut, cre], Julien Jacques [aut]\cr
 
 Mantainer: Nicolás Hernández <nicolas.hernandez@mrc-bsu.cam.ac.uk>
 }
