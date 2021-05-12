@@ -4,7 +4,8 @@ Type: Package
 Title: Predictive confidence bands for functional time series
         forecasting
 Author: Nicolás Hernández [aut, cre],
-  Jairo Cugliari [aut, cre]
+  Jairo Cugliari [aut, cre],
+  Julien Jacques [aut]
 Maintainer: Nicolás Hernández <nicolas.hernandez@mrc-bsu.cam.ac.uk>
 Description: Functions to represent functional objects under a Reproducing Kernel Hilbert Space (RKHS) framework as described 
   in Muñoz & González (2010). Autoregressive Hilbertian Model for functional time series using RKHS and predictive confidence bands construction 
