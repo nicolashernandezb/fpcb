@@ -37,8 +37,8 @@ lines(t,f.data$fdata, col='blue', lty=1)
 
 }
 \references{
-A. Muñoz, J. González, Representing Functional Data Using
-Support Vector Machines, Pattern Recognition Letters 31 (2010) 511–516.
+A. Muñoz, J. González, Representing Functional
+data Using Support Vector Machines, Pattern Recognition Letters 31 (2010) 511–516. <doi:10.1016/j.patrec.2009.07.014>
 }
 \author{
 N. Hernández and J. Cugliari
