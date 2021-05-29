@@ -1,5 +1,5 @@
 
-# fpcb -- Functional predictive confidence bands
+# fpcb -- Functional Predictive Confidence Bands
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/nicolashernandezb/fpcb/workflows/R-CMD-check/badge.svg)](https://github.com/nicolashernandezb/fpcb/actions)
