@@ -1,8 +1,8 @@
 Package: fpcb
 Version: 0.1.0
 Type: Package
-Title: Predictive confidence bands for functional time series
-        forecasting
+Title: Predictive Confidence Bands for Functional Time Series
+        Forecasting
 Author: Nicolás Hernández [aut, cre],
   Jairo Cugliari [aut, cre],
   Julien Jacques [aut]
