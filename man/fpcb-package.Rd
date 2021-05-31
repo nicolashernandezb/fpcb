@@ -13,16 +13,14 @@ predictive confidence bands construction as proposed in Hernández et al
 (2021).
 }
 \references{
-\itemize{ 
-  \item A. Muñoz, J. González, Representing Functional
+\itemize{\item A. Muñoz, J. González, Representing Functional
 data Using Support Vector Machines, Pattern Recognition Letters 31 (2010) 511–516. <doi:10.1016/j.patrec.2009.07.014> 
   \item Martos, G. et al (2018): Entropy Measures for Stochastic
 Processes with Applications in Functional Anomaly Detection. Entropy 20(1):33 (2018). <doi:10.3390/e20010033>   
   \item D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional Autoregressive Processes in Reproducing Kernel Hilbert Spaces, arXiv
 preprint arXiv:2011.13993 (2020). 
   \item  N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive Bands for Functional Time Series Using Minimum Entropy Sets, arXiv
-preprint arXiv:2105.13627 (2021). 
-}
+preprint arXiv:2105.13627 (2021).}
 }
 \author{
 Nicolás Hernández [aut, cre], Jairo Cugliari [aut, cre], Julien Jacques [aut]\cr
