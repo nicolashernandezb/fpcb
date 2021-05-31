@@ -28,8 +28,8 @@ Wang et al (2020).
 \references{
 \itemize{
 \item  N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
-Bands for Functional Time Series Using Minimum Entropy Sets. 2021.
--Submited-. 
+Bands for Functional Time Series Using Minimum Entropy Sets, arXiv
+preprint arXiv:2105.13627 (2021). 
 \item D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional
 Autoregressive Processes in Reproducing Kernel Hilbert Spaces, arXiv
 preprint arXiv:2011.13993 (2020).
