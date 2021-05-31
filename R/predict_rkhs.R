@@ -115,7 +115,7 @@ function(model, newdata, bands=FALSE, B=100, level=0.95, kvec=round(sqrt(2*B))) 
       UB.c      <- as.numeric(forecast+(UB-LB)/2)
       LB.c      <- as.numeric(forecast-(UB-LB)/2)
     }
-    names(UB.c)     =nnames(LB.c)     <-paste0('Band ',level*100,'%')
+    names(UB.c)     =names(LB.c)     <-paste0('Band ',level*100,'%')
     
     result$bootsrap.pred = fd.boot.fcast
     result$bootsrap.pred.inband = fd.boot.fcast[index,]
