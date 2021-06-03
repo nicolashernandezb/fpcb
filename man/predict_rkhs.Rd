@@ -47,8 +47,8 @@ predictive confidence bands for the forecasted function.
 }
 \references{
 N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
-Bands for Functional Time Series Using Minimum Entropy Sets, arXiv
-preprint arXiv:2105.13627 (2021). 
+Bands for Functional Time Series using Minimum Entropy Sets. 2021.
+-Submited-.
 }
 \author{
 N. Hernández and J. Cugliari
