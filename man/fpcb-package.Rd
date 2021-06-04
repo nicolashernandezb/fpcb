@@ -10,18 +10,17 @@ Functions to represent functional objects under a Reproducing Kernel Hilbert
 Space (RKHS) framework as described in Muñoz & González (2010).
 Autoregressive Hilbertian Model for functional time series using RKHS and
 predictive confidence bands construction as proposed in Hernández et al
-(2021).
+(2021) <arXiv:2105.13627>.
 }
 \references{
 \itemize{ \item A. Muñoz, J. González, Representing functional
-data using support vector machines, Pattern Recog-nition Letters 31 (2010)
+data using support vector machines, Pattern Recognition Letters 31 (2010)
 511–516.  \item Martos, G. et al (2018): Entropy Measures for Stochastic
 Processes with Applications in Functional Anomaly Detection. Entropy 20(1):
 33 (2018).  \item D. Wang, Z. Zhao, R. Willett, C. Y. Yau, Functional
 autoregressive processes in reproducing kernel hilbert spaces, arXiv
-preprint arXiv:2011.13993 (2020).  \item N. Hernández, J. Cugliari, J.
-Jacques. Simultaneous Predictive Bands for Functional Time Series using
-Minimum Entropy Sets. 2021. -Submited-. }
+preprint arXiv:2011.13993 (2020).  \item N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
+Bands for Functional Time Series using Minimum Entropy Sets. arXiv:2105.13627 (2021). }
 }
 \author{
 Nicolás Hernández [aut, cre], Jairo Cugliari [aut, cre]\cr
