@@ -22,8 +22,8 @@ operators, both estimated using the coefficients \eqn{lambda}.}
 \description{
 Estimates an autoregresive Hilbertian model of order 1 for functional time
 series. The temporal dependence is estimated in the Hilbert projection space
-which has a reproducing kernel as proposed in Hernández et al (2021) and
-Wang et al (2020).
+which has a reproducing kernel as proposed in Hernández et al (2021) <arXiv:2105.13627> and
+Wang et al (2020) <arXiv:2011.13993>.
 }
 \references{
 \itemize{
