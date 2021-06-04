@@ -26,8 +26,7 @@
 #' @author N. Hernández and J. Cugliari
 #' @export
 #' @references N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
-#' Bands for Functional Time Series using Minimum Entropy Sets. 2021.
-#' -Submited-.
+#' Bands for Functional Time Series using Minimum Entropy Sets. arXiv:2105.13627 (2021).
 #' @importFrom stats quantile var
 predict_rkhs <-
 function(model, newdata, bands=FALSE, B=100, level=0.95, kvec=round(sqrt(2*B))) {  # this will be called as 'predict'
