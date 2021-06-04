@@ -11,7 +11,7 @@ Description: Functions to represent functional objects under a Reproducing Kerne
   as proposed in Hernández et al (2021).
 Encoding: UTF-8
 License: GPL (>= 3)
-Imports: stats, FNN
+Imports: FNN
 Repository: CRAN
 NeedsCompilation: yes
 RoxygenNote: 7.1.1
