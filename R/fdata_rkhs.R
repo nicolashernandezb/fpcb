@@ -15,7 +15,7 @@
 #' \item{gamma}{regularization parameter.}
 #' @author N. Hernández and J. Cugliari
 #' @references A. Muñoz, J. González, Representing functional data using
-#' support vector machines, Pattern Recog-nition Letters 31 (2010) 511–516.
+#' support vector machines, Pattern Recognition Letters 31 (2010) 511–516. <doi:10.1016/j.patrec.2009.07.014>.
 #' @export
 #' @examples
 #' 
