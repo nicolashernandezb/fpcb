@@ -9,7 +9,7 @@ fpcb provides estimation and prediction functions for autoregressive Hilbert pro
 
 ## Installation
 
-You can install the released version of fpcb from [CRAN](https://CRAN.R-project.org) with (_soon_) :
+You can install the released version of fpcb from [CRAN](https://CRAN.R-project.org) with :
 
 ``` r
 install.packages("fpcb")
