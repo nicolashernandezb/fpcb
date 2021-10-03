@@ -25,6 +25,13 @@ series. The temporal dependence is estimated in the Hilbert projection space
 which has a reproducing kernel as proposed in Hernández et al (2021) <arXiv:2105.13627> and
 Wang et al (2020) <arXiv:2011.13993>.
 }
+
+\examples{
+kernel    <- rk(grid = t, r=5, sigma = 0.01)
+data      <- t(sqrt(ftsa::pm_10_GR$y))
+fd.curves <- fdata_rkhs(curves = data, rk = kernel)
+model     <- arh_rkhs(fd.curves)  
+}
 \references{
 N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
 Bands for Functional Time Series using Minimum Entropy Sets. arXiv:2105.13627 (2021).
