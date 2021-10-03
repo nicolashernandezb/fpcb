@@ -29,7 +29,7 @@ computes its singular value decomposition.
 \examples{
 
 grid = seq(0,1,,100)
-rk(grid, sigma = 1)
+fpcb::rk(grid, sigma = 1)
 
 }
 \author{
