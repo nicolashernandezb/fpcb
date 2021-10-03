@@ -47,18 +47,18 @@ predictive confidence bands for the forecasted function.
 }
 \examples{
 require(ftsa)
-kernel       <- rk(grid = t, r=10, sigma = 0.01)
+kernel       <- fpcb::rk(grid = t, r=10, sigma = 0.01)
 data         <- t(sqrt(ftsa::pm_10_GR$y))
-fd.curves    <- fdata_rkhs(curves = data, rk = kernel)
-model        <- arh_rkhs(fd.curves)
+fd.curves    <- fpcb::fdata_rkhs(curves = data, rk = kernel)
+model        <- fpcb::arh_rkhs(fd.curves)
 #POINT PREDICTION 
-predict.rkhs <- predict_rkhs(model, bands=F)
+predict.rkhs <- fpcb::predict_rkhs(model, bands=F)
 matplot(t,t(data), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l')
 matlines(t,t(fd.curves$fdata), col='blue', lty=1)
 lines(t,predict.rkhs$forecast,col='red',lty=1,lwd=1.5)
 legend("topright",lty=1, col=c('gray','blue','red'), legend=c('PM10 curves','PM10 smoothed curves','Point Forecast (n+1)'))
 #PREDICTIVE BANDS
-predict.rkhs <- predict_rkhs(model, bands=T, B = 1000, level = 0.95)
+predict.rkhs <- fpcb::predict_rkhs(model, bands=T, B = 1000, level = 0.95)
 matplot(t,t(data), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l')
 lines(t,predict.rkhs$forecast,col='red',lty=1,lwd=1.5)
 lines(t,predict.rkhs$UB,col='blue',lty=2,lwd=1.5)
