@@ -63,8 +63,7 @@ matplot(t,t(data), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l'
 lines(t,predict.rkhs$forecast,col='red',lty=1,lwd=1.5)
 lines(t,predict.rkhs$UB,col='blue',lty=2,lwd=1.5)
 lines(t,predict.rkhs$LB,col='blue',lty=2,lwd=1.5)
-legend("topright",lty=c(1,1,2), col=c('gray','red','blue'), legend=c('PM10 curves','Point Forecast (n+1)','95% Conf. Band'))
-}
+legend("topright",lty=c(1,1,2), col=c('gray','red','blue'), legend=c('PM10 curves','Point Forecast (n+1)','95% Conf. Band'))}
 \references{
 N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
 Bands for Functional Time Series using Minimum Entropy Sets. arXiv:2105.13627 (2021).
