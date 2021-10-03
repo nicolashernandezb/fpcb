@@ -29,11 +29,12 @@ With this function each function can be represented with a vector in R^d.
 }
 \examples{
 
-t = 1:50
-curves = matrix(sin(t)+rnorm(length(t)),nrow=1)
+require(ftsa)  
+curves = t(sqrt(ftsa::pm_10_GR$y))
+t = 1:ncol(curves)
 f.data <- fdata_rkhs(curves, rk = rk(t,sigma = 0.01))
-plot(t,curves, xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='b')
-lines(t,f.data$fdata, col='blue', lty=1)
+matplot(t,t(curves), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l')
+matlines(t,t(f.data$fdata), col='blue', lty=1)
 
 }
 \references{
