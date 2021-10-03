@@ -28,16 +28,14 @@ Approximate each curve with a smooth function using a kernel function.
 With this function each function can be represented with a vector in R^d.
 }
 \examples{
-
 require(ftsa)  
 curves = t(sqrt(ftsa::pm_10_GR$y))
 t = 1:ncol(curves)
-f.data <- fdata_rkhs(curves, rk = rk(t,sigma = 0.01))
+kernel = rk(grid = t,sigma = 0.01)
+f.data <- fdata_rkhs(curves, rk = kernel)
 matplot(t,t(curves), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l')
 matlines(t,t(f.data$fdata), col='blue', lty=1)
 legend("topright",lty=c(1,1), col=c('gray','blue'), legend=c('PM10 curves','PM10 smoothed curves'))
-
-
 }
 \references{
 A. Muñoz, J. González, Representing functional data using
