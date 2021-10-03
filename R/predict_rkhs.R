@@ -20,8 +20,8 @@
 #' @return \item{forecast}{1 step ahead forecast.} \item{fitted}{fitted
 #' values.} \item{UB}{upper bound of the 1-\eqn{alpha} predictive confidence
 #' band.} \item{LB}{lower bound of the 1-\eqn{alpha} predictive confidence
-#' band.} \item{bootsrap.pred}{bootstrap pseudo replicates.}
-#' \item{bootsrap.pred.inband}{bootstrap pseudo replicates included in the
+#' band.} \item{bootstrap.pred}{bootstrap pseudo replicates.}
+#' \item{bootstrap.pred.inband}{bootstrap pseudo replicates included in the
 #' 1-\eqn{alpha} predictive confidence band.} \item{res}{estimation residuals.}
 #' @author N. Hernández and J. Cugliari
 #' @export
@@ -116,8 +116,8 @@ function(model, newdata, bands=FALSE, B=100, level=0.95, kvec=round(sqrt(2*B))) 
     }
     names(UB.c)     =names(LB.c)     <-paste0('Band ',level*100,'%')
     
-    result$bootsrap.pred = fd.boot.fcast
-    result$bootsrap.pred.inband = fd.boot.fcast[index,]
+    result$bootstrap.pred = fd.boot.fcast
+    result$bootstrap.pred.inband = fd.boot.fcast[index,]
     result$UB      = UB.c
     result$LB      = LB.c
     result$Boot.res = res
