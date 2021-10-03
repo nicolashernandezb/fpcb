@@ -27,10 +27,10 @@ Wang et al (2020) <arXiv:2011.13993>.
 }
 
 \examples{
-kernel    <- rk(grid = t, r=5, sigma = 0.01)
+kernel    <- fpcb::rk(grid = t, r=5, sigma = 0.01)
 data      <- t(sqrt(ftsa::pm_10_GR$y))
-fd.curves <- fdata_rkhs(curves = data, rk = kernel)
-model     <- arh_rkhs(fd.curves)  
+fd.curves <- fpcb::fdata_rkhs(curves = data, rk = kernel)
+model     <- fpcb::arh_rkhs(fd.curves)  
 }
 \references{
 N. Hernández, J. Cugliari, J. Jacques. Simultaneous Predictive
