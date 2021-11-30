@@ -47,7 +47,7 @@ predictive confidence bands for the forecasted function.
 }
 \examples{
 require(ftsa)
-t            <- seq(0, 1,length.out = nrow(pm_10_GR$y)) 
+t            <- seq(0, 1,length.out = nrow(ftsa::pm_10_GR$y)) 
 kernel       <- rk(grid = t, r=10, sigma = 0.01)
 data         <- t(sqrt(ftsa::pm_10_GR$y))
 fd.curves    <- fdata_rkhs(curves = data, rk = kernel)
