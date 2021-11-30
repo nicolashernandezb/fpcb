@@ -27,7 +27,7 @@ Wang et al (2020) <arXiv:2011.13993>.
 }
 
 \examples{
-t         <- seq(0, 1,length.out = nrow(ftsa::pm_10_GR$y) 
+t         <- seq(0, 1,length.out = nrow(ftsa::pm_10_GR$y)) 
 kernel    <- fpcb::rk(grid = t, r=5, sigma = 0.01)
 data      <- t(sqrt(ftsa::pm_10_GR$y))
 fd.curves <- fpcb::fdata_rkhs(curves = data, rk = kernel)
