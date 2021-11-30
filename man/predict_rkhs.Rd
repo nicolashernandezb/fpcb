@@ -47,11 +47,11 @@ predictive confidence bands for the forecasted function.
 }
 \examples{
 require(ftsa)
-t            <- seq(0, 1,length.out = nrow(ftsa::pm_10_GR$y)) 
-kernel       <- fpcb::rk(grid = t, r=10, sigma = 0.01)
+t            <- seq(0, 1,length.out = nrow(pm_10_GR$y)) 
+kernel       <- rk(grid = t, r=10, sigma = 0.01)
 data         <- t(sqrt(ftsa::pm_10_GR$y))
-fd.curves    <- fpcb::fdata_rkhs(curves = data, rk = kernel)
-model        <- fpcb::arh_rkhs(fd.curves)
+fd.curves    <- fdata_rkhs(curves = data, rk = kernel)
+model        <- arh_rkhs(fd.curves)
 #POINT PREDICTION 
 predict.rkhs <- fpcb::predict_rkhs(model, bands=F)
 matplot(t,t(data), xlab='time', ylab='PM10 dataset', col='gray', lty=1, type='l')
