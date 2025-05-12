@@ -4,7 +4,7 @@ Type: Package
 Title: Predictive Confidence Bands for Functional Time Series Forecasting
 Authors@R: c(
     person("Jairo", "Cugliari", email = "Jairo.Cugliari@univ-lyon2.fr", role = c("aut", "cre")),
-    person("Nicolás", "Hernández", email = "nicolashernandezb@gmail.com", role = "aut")
+    person("Nicolás", "Hernández", email = "nicolashernandezb@gmail.com", role = "aut"),
     person("Julien", "Jacques", email = "Julien.Jacques@univ-lyon2.fr", role = "aut")
 )
 Description: Functions to represent functional objects under a Reproducing Kernel Hilbert Space (RKHS) framework as described 
