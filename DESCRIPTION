@@ -1,21 +1,18 @@
 Package: fpcb
 Version: 0.1.0
-Type: Package
 Title: Predictive Confidence Bands for Functional Time Series Forecasting
+Description: Functions to represent functional objects under a Reproducing Kernel
+    Hilbert Space (RKHS) framework as described in Munoz and Gonzalez (2010).
+    Autoregressive Hilbertian Model for functional time series using RKHS and
+    predictive confidence bands construction as proposed in Hernandez et al. (2021).
 Authors@R: c(
     person("Jairo", "Cugliari", email = "Jairo.Cugliari@univ-lyon2.fr", role = c("aut", "cre")),
     person("Nicolas", "Hernandez", email = "nicolashernandezb@gmail.com", role = "aut"),
     person("Julien", "Jacques", email = "Julien.Jacques@univ-lyon2.fr", role = "aut")
 )
-Description: Functions to represent functional objects under a Reproducing Kernel Hilbert Space (RKHS) framework as described 
-  in Muñoz & González (2010). Autoregressive Hilbertian Model for functional time series using RKHS and predictive confidence bands construction 
-  as proposed in Hernández et al (2021).
 Encoding: UTF-8
 License: GPL (>= 3)
 Imports: FNN, ftsa
-Repository: CRAN
-NeedsCompilation: yes
 RoxygenNote: 7.1.1
-Packaged: 2021-05-07 17:18:35 UTC; nicolas
 BugReports: https://github.com/nicolashernandezb/fpcb/issues
-Fix DESCRIPTION: switch to Authors@R with single maintainer
+NeedsCompilation: yes
